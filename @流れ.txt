@@ -21,5 +21,9 @@ git config user.email
 その他	vscodeやTortoiseGitをダウンロードして、コマンド操作でのコミットから
 	画面ポチポチのコミットに切り替えることが可能
 
+5	次回以降のコミット
+git add .
+git commit -m "コメント"
+git push -u origin main
 
 
