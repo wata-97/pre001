@@ -1,0 +1,25 @@
+
+1	githubにアカウントを作成する
+※ログイン認証のところがややこしい。ごちゃついて結局Google Authenticatorを使ってる
+
+2	gitbashをダウンロードする
+3	gitbashを起動し、キーを生成＆githubに公開キーを登録する
+手順：https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+
+4	gitbashとgithubのユーザページからリポジトリ（PJ）を作成する
+手順：https://hn-carter.sakura.ne.jp/posts/creating-a-new-github-repository/ など
+
+※このとき、git commit -m "first commit"でエラーとなるのでエラーに従ってgithubに登録したメールとユーザ名をローカルリポジトリに登録する
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+※確認コマンド
+git config user.name
+git config user.email
+
+
+その他	vscodeやTortoiseGitをダウンロードして、コマンド操作でのコミットから
+	画面ポチポチのコミットに切り替えることが可能
+
+
+
